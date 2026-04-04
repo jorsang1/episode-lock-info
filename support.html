@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support – Episode Lock</title>
+  <meta name="description" content="Support and FAQ for the Episode Lock browser extension." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">🔒</span>
+        <span class="logo-text">Episode Lock</span>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="support.html">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-content">
+        <h1>Support &amp; FAQ</h1>
+        <p class="subtitle">Find answers to common questions or get in touch with us.</p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <ul class="faq-list" id="faq">
+          <li class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How do I set my current episode?
+              <i class="faq-chevron" aria-hidden="true">▾</i>
+            </button>
+            <div class="faq-answer">
+              Click the Episode Lock icon in your browser's toolbar to open the popup.
+              Navigate to the series you are watching, then use the popup to select or type
+              your current episode number and click <strong>Lock</strong>.
+            </div>
+          </li>
+
+          <li class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Does Episode Lock work on all streaming platforms?
+              <i class="faq-chevron" aria-hidden="true">▾</i>
+            </button>
+            <div class="faq-answer">
+              Episode Lock currently supports the most popular streaming platforms.
+              Support for additional platforms is being added over time.
+              If you would like to request a new platform, please open an issue on our
+              <a href="https://github.com/jorsang1/episode-lock-info" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
+            </div>
+          </li>
+
+          <li class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Is my data safe? Does the extension send anything to a server?
+              <i class="faq-chevron" aria-hidden="true">▾</i>
+            </button>
+            <div class="faq-answer">
+              Your data never leaves your device. All progress and settings are stored locally
+              using your browser's built-in storage. See our
+              <a href="privacy.html">Privacy Policy</a> for full details.
+            </div>
+          </li>
+
+          <li class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How do I update my locked episode?
+              <i class="faq-chevron" aria-hidden="true">▾</i>
+            </button>
+            <div class="faq-answer">
+              Open the Episode Lock popup while on the series page and choose the new episode
+              you are on. Click <strong>Lock</strong> to update your progress.
+            </div>
+          </li>
+
+          <li class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              How do I remove a locked series?
+              <i class="faq-chevron" aria-hidden="true">▾</i>
+            </button>
+            <div class="faq-answer">
+              Open the Episode Lock popup, find the series you want to remove, and click
+              the <strong>Remove</strong> or <strong>Unlock</strong> button next to it.
+            </div>
+          </li>
+
+          <li class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              The extension does not seem to be working. What should I do?
+              <i class="faq-chevron" aria-hidden="true">▾</i>
+            </button>
+            <div class="faq-answer">
+              <ol>
+                <li>Make sure you are using a supported browser (Chrome or Firefox).</li>
+                <li>Try disabling and re-enabling the extension from your browser's extensions page.</li>
+                <li>Check that the extension has the necessary permissions for the current website.</li>
+                <li>If the problem persists, please report it on our
+                    <a href="https://github.com/jorsang1/episode-lock-info/issues" target="_blank" rel="noopener noreferrer">GitHub Issues page</a>.
+                </li>
+              </ol>
+            </div>
+          </li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <p>
+          Can't find the answer you're looking for? Open an issue on our
+          <a href="https://github.com/jorsang1/episode-lock-info/issues" target="_blank" rel="noopener noreferrer">GitHub repository</a>
+          and we'll get back to you as soon as possible.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Episode Lock &bull; <a href="privacy.html">Privacy Policy</a> &bull; <a href="support.html">Support</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple accordion for FAQ
+    document.querySelectorAll('.faq-question').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var item = btn.closest('.faq-item');
+        var isOpen = item.classList.contains('open');
+        // Close all
+        document.querySelectorAll('.faq-item').forEach(function(i) {
+          i.classList.remove('open');
+          i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+        // Toggle clicked
+        if (!isOpen) {
+          item.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
