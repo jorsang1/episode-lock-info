@@ -123,8 +123,32 @@ nav a:hover { color: #4f46e5; text-decoration: none; }
 }
 
 .hero-note {
-  font-size: 0.9rem;
-  opacity: 0.8;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.86);
+  margin-top: 0.55rem;
+}
+
+.hero-note-main {
+  font-weight: 500;
+}
+
+.hero-note-support {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.35rem;
+  padding: 0.28rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  background: rgba(15, 23, 42, 0.18);
+  color: rgba(255, 255, 255, 0.94);
+}
+
+.hero-note-icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  display: block;
 }
 
 .hero-media {
@@ -324,6 +348,28 @@ nav a:hover { color: #4f46e5; text-decoration: none; }
 .note {
   font-size: 0.85rem;
   color: #718096;
+}
+
+.install > .container > p.install-support-note {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: -0.25rem auto 1.25rem;
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  border: 1px solid #cfd6e6;
+  background: #eef2ff;
+  color: #475569;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.install-support-note img {
+  display: block;
+  width: 18px;
+  height: 18px;
 }
 
 /* ----- How It Works ----- */
