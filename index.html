@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>EpisodeLock - Browser Extension</title>
   <meta name="description" content="EpisodeLock helps families set daily episode limits on streaming platforms with simple PIN-protected controls." />
+  <meta property="og:title" content="EpisodeLock - Browser Extension" />
+  <meta property="og:description" content="Set clear daily episode limits with PIN-protected controls that help families avoid screen-time battles." />
+  <meta property="og:image" content="images/episodelock-1400x280.png" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="EpisodeLock - Browser Extension" />
+  <meta name="twitter:description" content="Healthy screen time, fewer daily battles." />
+  <meta name="twitter:image" content="images/episodelock-1400x280.png" />
   <meta name="google-site-verification" content="Gxya4BKKvPz0ZRRCzI59d0jBQWwYdfY_q6pcaC4H4JQ" />
   <link rel="icon" type="image/png" sizes="16x16" href="icons/icon16.png" />
   <link rel="icon" type="image/png" sizes="48x48" href="icons/icon48.png" />
@@ -29,12 +37,53 @@
   <main>
     <section class="hero">
       <div class="container">
-        <h1>Healthy screen time,<br />fewer daily battles.</h1>
-        <p class="hero-subtitle">
-          EpisodeLock helps families set clear streaming limits, keep routines on track,
-          and avoid "just one more episode" arguments.
-        </p>
-        <a href="#how-it-works" class="btn btn-primary">See How It Works</a>
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <h1>Healthy screen time,<br />fewer daily battles.</h1>
+            <p class="hero-subtitle">
+              EpisodeLock helps families set clear streaming limits, keep routines on track,
+              and avoid "just one more episode" arguments.
+            </p>
+            <div class="hero-actions">
+              <a href="#how-it-works" class="btn btn-primary">See How It Works</a>
+              <a href="#in-action" class="btn btn-ghost">View Real Screens</a>
+            </div>
+            <p class="hero-note">Built for real evenings: simple rules, less arguing, more consistency.</p>
+          </div>
+          <div class="hero-media" aria-label="EpisodeLock interface previews">
+            <figure class="hero-shot hero-shot-settings">
+              <img src="images/episodelock-440x280%20-%201.png" alt="EpisodeLock settings panel showing daily episode limit and parental PIN controls" width="440" height="280" />
+              <figcaption>Set limits in seconds</figcaption>
+            </figure>
+            <figure class="hero-shot hero-shot-limit">
+              <img src="images/episodelock-440x280%20-%202.png" alt="EpisodeLock limit reached modal requesting parental PIN" width="440" height="280" />
+              <figcaption>PIN unlock when needed</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="showcase" id="in-action">
+      <div class="container">
+        <h2>EpisodeLock in Action</h2>
+        <p class="showcase-subtitle">A quick look at what parents set up once, and what kids see when limits are reached.</p>
+        <div class="showcase-grid">
+          <article class="showcase-card">
+            <img src="images/episodelock-1280x800%20-%201%20-%20options.png" alt="EpisodeLock options panel displayed over a streaming page" loading="lazy" width="1280" height="800" />
+            <div class="showcase-copy">
+              <h3>Parent Setup Screen</h3>
+              <p>Choose the daily episode allowance and protect changes with a 4-digit parent PIN.</p>
+            </div>
+          </article>
+          <article class="showcase-card">
+            <img src="images/episodelock-1280x800%20-%202%20-%20limit%20reach.png" alt="EpisodeLock limit reached modal showing the child watched more episodes than allowed" loading="lazy" width="1280" height="800" />
+            <div class="showcase-copy">
+              <h3>Limit Reached Screen</h3>
+              <p>When the daily total is used, EpisodeLock pauses playback until a parent unlocks more time.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
