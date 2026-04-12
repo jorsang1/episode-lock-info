@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad - EpisodeLock</title>
+  <meta name="description" content="Política de privacidad de la extensión EpisodeLock para navegadores." />
+  <link rel="alternate" hreflang="en" href="https://jorsang1.github.io/episode-lock-info/privacy.html" />
+  <link rel="alternate" hreflang="es-ES" href="https://jorsang1.github.io/episode-lock-info/es/privacy.html" />
+  <link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/privacy.html" />
+  <link rel="canonical" href="https://jorsang1.github.io/episode-lock-info/es/privacy.html" />
+  <link rel="icon" type="image/png" sizes="16x16" href="../icons/icon16.png" />
+  <link rel="icon" type="image/png" sizes="48x48" href="../icons/icon48.png" />
+  <link rel="apple-touch-icon" sizes="128x128" href="../icons/icon128.png" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <img class="logo-icon-image" src="../icons/icon48.png" width="32" height="32" alt="Logotipo de EpisodeLock" />
+        <span class="logo-text">EpisodeLock</span>
+      </div>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="privacy.html">Política de Privacidad</a>
+        <a href="support.html">Soporte</a>
+        <div class="locale-switcher" aria-label="Selector de idioma">
+          <a href="../privacy.html" class="locale-link" hreflang="en">EN</a>
+          <span class="locale-sep" aria-hidden="true">|</span>
+          <a href="privacy.html" class="locale-link active" hreflang="es-ES" aria-current="true">ES</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-content">
+        <h1>Política de Privacidad</h1>
+        <p class="subtitle">Última actualización: 4 de abril de 2026</p>
+
+        <h2>Resumen</h2>
+        <p>
+          EpisodeLock es una extensión para navegadores que ayuda a los padres a limitar los episodios
+          diarios de streaming en Netflix, Disney+, Amazon Prime Video, YouTube y YouTube Kids.
+          Esta política de privacidad explica cómo la extensión gestiona los datos.
+        </p>
+
+        <h2>Recopilación de Datos</h2>
+        <p><strong>EpisodeLock no recopila ningún dato personal.</strong></p>
+        <ul>
+          <li>No se crean cuentas de usuario.</li>
+          <li>No se envían datos a ningún servidor.</li>
+          <li>No se recopilan análisis ni telemetría.</li>
+          <li>No se utilizan servicios de terceros.</li>
+        </ul>
+
+        <h2>Almacenamiento de Datos</h2>
+        <p>
+          Todos los datos se almacenan <strong>únicamente de forma local en tu dispositivo</strong>,
+          utilizando la API integrada del navegador <code>chrome.storage.local</code>.
+          Estos datos nunca abandonan tu navegador.
+        </p>
+
+        <p>La siguiente información se almacena localmente:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Dato</th>
+              <th>Propósito</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Límite de episodios (un número)</td>
+              <td>Tu límite diario de episodios configurado</td>
+            </tr>
+            <tr>
+              <td>Contador de episodios (un número)</td>
+              <td>Cuántos episodios se han visto hoy</td>
+            </tr>
+            <tr>
+              <td>PIN (cifrado)</td>
+              <td>PIN de control parental para desbloquear o cambiar la configuración</td>
+            </tr>
+            <tr>
+              <td>Fecha del último reinicio</td>
+              <td>Para determinar cuándo reiniciar el contador diario</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p>
+          Estos datos solo son accesibles desde la propia extensión y nunca se transmiten a ningún lugar.
+        </p>
+
+        <h2>Explicación de los Permisos</h2>
+        <h3><code>storage</code></h3>
+        <p>
+          Se utiliza para guardar tu configuración (límite de episodios, contador diario, PIN)
+          localmente en tu dispositivo. No se utiliza almacenamiento remoto.
+        </p>
+
+        <h3>Permisos de host (netflix.com, disneyplus.com, amazon.com, primevideo.com, youtube.com, youtubekids.com)</h3>
+        <p>
+          Necesario para detectar cuándo comienza a reproducirse un vídeo en estas plataformas de
+          streaming, para que la extensión pueda contar los episodios y mostrar la superposición del
+          PIN cuando se alcanza el límite diario. La extensión <strong>no</strong> lee, registra ni
+          transmite ningún contenido de estas páginas.
+        </p>
+
+        <h2>Privacidad de los Menores</h2>
+        <p>
+          EpisodeLock es una herramienta de control parental diseñada para ser configurada por
+          padres o tutores. No recopila datos de menores ni de ninguna otra persona.
+        </p>
+
+        <h2>Cambios en Esta Política</h2>
+        <p>
+          Si esta política cambia en una versión futura, la fecha de «Última actualización»
+          indicada arriba se actualizará y los cambios se describirán en las notas de la versión
+          de la extensión.
+        </p>
+
+        <h2>Contacto</h2>
+        <p>
+          Si tienes preguntas sobre esta política de privacidad, abre una incidencia en el
+          <a href="https://github.com/jordienr/episode-lock" target="_blank" rel="noopener noreferrer">repositorio de GitHub</a>.
+        </p>
+
+        <p>
+          <em>EpisodeLock es software de código abierto. Puedes revisar todo el código para verificar estas afirmaciones.</em>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EpisodeLock &bull; <a href="privacy.html">Política de Privacidad</a> &bull; <a href="support.html">Soporte</a></p>
+    </div>
+  </footer>
+</body>
+</html>
