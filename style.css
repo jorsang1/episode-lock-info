@@ -584,7 +584,8 @@ pre {
   box-shadow: 0 14px 36px rgba(79, 70, 229, 0.14);
 }
 
-.video-wrapper iframe {
+.video-wrapper iframe,
+.video-wrapper video {
   position: absolute;
   top: 0;
   left: 0;
