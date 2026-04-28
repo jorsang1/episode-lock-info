@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/"/>
+  </url>
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/es/</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/"/>
+  </url>
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/story.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/story.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/story.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/story.html"/>
+  </url>
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/es/story.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/story.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/story.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/story.html"/>
+  </url>
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/support.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/support.html"/>
+  </url>
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/es/support.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/support.html"/>
+  </url>
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/privacy.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/privacy.html"/>
+  </url>
+
+  <url>
+    <loc>https://jorsang1.github.io/episode-lock-info/es/privacy.html</loc>
+    <lastmod>2026-04-28</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en"      href="https://jorsang1.github.io/episode-lock-info/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es-ES"   href="https://jorsang1.github.io/episode-lock-info/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jorsang1.github.io/episode-lock-info/privacy.html"/>
+  </url>
+
+</urlset>
